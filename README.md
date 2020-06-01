@@ -14,4 +14,7 @@ If you want to contribute to models, be sure to review the [contribution guideli
 
 ## License
 
-[Apache License 2.0](LICENSE)
+[Apache License 2.0](LICENSE)  
+
+# 要点  
+1、使用object_de_detection进行模型训练时，可通过设置[RunConfig](https://github.com/tensorflow/models/issues/5421#issuecomment-497372032)进行多GPU训练
